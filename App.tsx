@@ -249,7 +249,7 @@ const Footer: React.FC = () => (
   <footer className="py-12 md:py-16 px-8 flex flex-col md:flex-row justify-between items-center gap-8 border-t border-neutral-100">
     <div className="flex flex-col gap-2 items-center md:items-start">
       <div className="flex items-center gap-1">
-        <img src="./meritlogo.png" alt="Merit Logo" className="w-7 h-7" />
+        <img src="./meritlogo.png" alt="Merit Logo" className="w-7 h-7 object-contain" />
         <h4 className="text-lg font-bold tracking-tighter">MERIT</h4>
       </div>
       <p className="text-xs text-merit-gray font-sans">© 2026 Merit Inc. All rights reserved.</p>
