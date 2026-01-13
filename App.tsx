@@ -123,7 +123,7 @@ const Navbar: React.FC = () => {
     <nav className="fixed top-0 left-0 w-full z-50 px-6 py-8 md:px-12 md:py-10 flex justify-between items-center md:items-start pointer-events-none">
       <div className="pointer-events-auto flex items-center gap-1">
         <img 
-          src="/assets/meritlogo.svg" 
+          src="./meritlogo.svg" 
           alt="Merit Logo" 
           className="w-6 h-6 md:w-8 md:h-8 object-contain"
         />
@@ -249,7 +249,7 @@ const Footer: React.FC = () => (
   <footer className="py-12 md:py-16 px-8 flex flex-col md:flex-row justify-between items-center gap-8 border-t border-neutral-100">
     <div className="flex flex-col gap-2 items-center md:items-start">
       <div className="flex items-center gap-1">
-        <img src="/assets/meritlogo.svg" alt="Merit Logo" className="w-7 h-7" />
+        <img src="./meritlogo.svg" alt="Merit Logo" className="w-7 h-7" />
         <h4 className="text-lg font-bold tracking-tighter">MERIT</h4>
       </div>
       <p className="text-xs text-merit-gray font-sans">© 2026 Merit Inc. All rights reserved.</p>
